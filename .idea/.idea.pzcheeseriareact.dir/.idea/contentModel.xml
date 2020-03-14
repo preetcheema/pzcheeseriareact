@@ -32,6 +32,7 @@
       <e p="node_modules\@typescript-eslint\experimental-utils" t="IncludeRecursive" />
       <e p="node_modules\@typescript-eslint\parser" t="IncludeRecursive" />
       <e p="node_modules\@typescript-eslint\typescript-estree" t="IncludeRecursive" />
+      <e p="node_modules\axios" t="IncludeRecursive" />
       <e p="node_modules\babel-jest" t="IncludeRecursive" />
       <e p="node_modules\chalk" t="IncludeRecursive" />
       <e p="node_modules\chokidar" t="IncludeRecursive" />
