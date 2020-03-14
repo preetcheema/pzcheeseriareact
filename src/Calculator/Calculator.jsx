@@ -1,6 +1,5 @@
 import React from 'react';
 
-const apiBaseUrl = "https://localhost:5001/api/cheeses";
 
 class Calculator extends React.Component {
     constructor(props) {
@@ -67,14 +66,12 @@ class Calculator extends React.Component {
                     </div>
                     <div className="form-group">
                         <label>Enter weight in kilos</label>
-                        <input type="number"   className="form-control" onChange={this.handleWeightChange}/>
+                        <input type="number"  step="0.0001" className="form-control" onChange={this.handleWeightChange}/>
                     </div>
                 </div>
 
                 <div className="card-footer">
-
                     Total Price: ${this.calculateTotalPrice()}
-
                 </div>
             </div>
         );
