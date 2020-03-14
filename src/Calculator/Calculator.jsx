@@ -67,7 +67,7 @@ class Calculator extends React.Component {
                     </div>
                     <div className="form-group">
                         <label>Enter weight in kilos</label>
-                        <input type="number"  min="1" max="100" className="form-control" onChange={this.handleWeightChange}/>
+                        <input type="number"   className="form-control" onChange={this.handleWeightChange}/>
                     </div>
                 </div>
 
