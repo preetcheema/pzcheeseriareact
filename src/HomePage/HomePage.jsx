@@ -29,7 +29,7 @@ class HomePage extends React.Component {
     async fetchData() {
         const response = await axios.get(apiBaseUrl);
 
-        this.setState({cheeseCollection: response.data})
+        this.setState({cheeseCollection: response.data});
         const calculatorData = response.data.map((item) => {
             return {
                 id: item.id,
