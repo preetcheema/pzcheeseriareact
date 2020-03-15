@@ -46,7 +46,7 @@ class Calculator extends React.Component {
     }
 
     calculateTotalPrice() {
-        return this.state.selectedWeight * this.state.selectedItemPrice;
+        return (this.state.selectedWeight * this.state.selectedItemPrice).toFixed(2);
     }
 
 
